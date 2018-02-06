@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab 4</string>
+
+    <string-array name="myspinnerlist">
+        <item>Option1</item>
+        <item>Option2</item>
+        <item>Option3</item>
+        <item>Option4</item>
+    </string-array>
+</resources>
