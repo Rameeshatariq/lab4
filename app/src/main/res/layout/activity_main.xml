@@ -5,26 +5,26 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     tools:context="com.example.meesh.lab4.MainActivity">
-  <!--  <TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        android:id="@+id/textview"/>-->
-<!--
+        android:id="@+id/textview"/>
     <Button
         android:id="@+id/btn"
         android:layout_below="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Send"
-        android:drawableLeft="@color/colorPrimary"/>-->
- <!-- <TextView
+        android:drawableLeft="@color/colorPrimary"/>
+  <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_below="@id/btn"
       android:text="Radio Button"
-      android:id="@+id/editText2"/>-->
+      android:id="@+id/editText2"/>
 
-   <!-- <RadioGroup
+    <RadioGroup
         android:id="@+id/radiobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,15 +39,16 @@
             android:layout_height="wrap_content"
             android:text="Female"
             android:id="@+id/radiobtn2"/>
-    </RadioGroup>-->
+    </RadioGroup>
 
-    <!--<TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Check Box"
-        android:id="@+id/editText1"/>-->
+        android:layout_below="@id/radiobutton"
+        android:id="@+id/editText1"/>
 
-   <!-- <CheckBox
+    <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,14 +64,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox1"
-        android:text="Xml" />-->
-   <!-- <TextView
+        android:text="Xml" />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox2"
         android:text="Toggle Button"
-        android:id="@+id/Text2"/>-->
+        android:id="@+id/Text2"/>
 
-    <!--<ToggleButton
+    <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,20 +80,28 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Text2"
         android:checked="true"
-        android:text="ToggleButton" />-->
-
-    <!--<Switch-->
-        <!--android:id="@+id/switch1"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_centerVertical="true"-->
-        <!--android:checked="true"-->
-        <!--android:text="Switch" />-->
+        android:text="ToggleButton" />
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_below="@id/toggleButton"
+      android:text="Switch"
+      android:id="@+id/Text4"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:checked="true"
+        android:text="Switch" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/switch1"
       android:text="Spinner"
       android:id="@+id/Text1"/>
 
